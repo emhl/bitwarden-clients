@@ -21,7 +21,7 @@ export class AnonAddyForwarder implements Forwarder {
         "X-Requested-With": "XMLHttpRequest",
       }),
     };
-    const url = "https://app.anonaddy.com/api/v1/aliases";
+    const url = "https://anonaddy.steinr.eu/api/v1/aliases";
     requestInit.body = JSON.stringify({
       domain: options.anonaddy.domain,
       description:
